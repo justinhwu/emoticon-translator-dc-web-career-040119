@@ -17,7 +17,7 @@ def get_japanese_emoticon(file_path, english)
   lib = load_library(file_path)
   lib.each do |a,b|
     if lib[b[1]] == english
-      return 
+      return lib[b[0]]
 end
 
 def get_english_meaning
