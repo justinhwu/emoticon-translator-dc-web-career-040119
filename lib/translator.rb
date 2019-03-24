@@ -8,6 +8,8 @@ def load_library(file_path)
   lib.each do |a,b|
     hash["get_meaning"][b] = a
     hash["get_emoticon"][b] = b
+  end
+  
 end
 
 def get_japanese_emoticon
