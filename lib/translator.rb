@@ -27,4 +27,5 @@ def get_english_meaning(file_path = "./lib/emoticons.", japanese)
   lib = load_library(file_path)
   if lib["get_meaning"].include?(japanese)
     
+    
 end
