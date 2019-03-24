@@ -6,7 +6,7 @@ def load_library(file_path)
   lib = YAML.load_file(file_path)
   hash = {}
   lib.each do |a,b|
-    
+    hash[]
 end
 
 def get_japanese_emoticon
