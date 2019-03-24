@@ -4,7 +4,7 @@ require "yaml"
 def load_library(file_path)
   # code goes here
   lib = YAML.load_file(file_path)
-  hash = {"get_meaning": {}}
+  hash = {"get_meaning": {}, }
   lib.each do |a,b|
     hash[]
 end
