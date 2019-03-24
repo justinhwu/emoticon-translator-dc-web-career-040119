@@ -12,7 +12,7 @@ def load_library(file_path)
   hash
 end
 
-def get_japanese_emoticon(file_path = , english)
+def get_japanese_emoticon(file_path = "./lib/emoticons.", english)
   # code goes here
   lib = load_library(file_path)
   if lib.include?(english)
