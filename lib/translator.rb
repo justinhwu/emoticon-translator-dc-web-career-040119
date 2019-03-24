@@ -1,3 +1,4 @@
+require "modules"
 # require modules here
 
 def load_library
