@@ -28,6 +28,6 @@ def get_english_meaning(file_path = "./lib/emoticons.", japanese)
   if lib["get_meaning"].include?(japanese)
     return lib["get_meaning"][japanese]
   else
-    return ""
+    return "Sorry, that emoticon was not found"
     
 end
