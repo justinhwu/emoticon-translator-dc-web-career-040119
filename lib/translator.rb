@@ -26,4 +26,5 @@ def get_english_meaning(file_path = "./lib/emoticons.", japanese)
   # code goes here
   lib = load_library(file_path)
   
+  
 end
